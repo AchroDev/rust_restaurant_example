@@ -1,3 +1,6 @@
+mod restaurant;
+use crate::restaurant::order_food;
+
 fn main() {
-    println!("Hello, world!");
+    order_food();
 }
